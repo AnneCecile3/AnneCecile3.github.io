@@ -3,11 +3,22 @@
 @keyframes spin { 0% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 @font-face {
+  font-family: Futura;
+  src: url(assets/futura-book-font.ttf);
+}
+
+@font-face {
   font-family: FuturaLight;
   src: url(assets/futura-light-bt.ttf);
 }
 
+@font-face {
+  font-family: FuturaHeavy;
+  src: url(assets/futura-hevay-font.ttf);
+}
+
 * {
+  color: #143684;
   font-family: FuturaLight, Helvetica, Arial;
   margin: 0;
   padding: 0;
@@ -18,13 +29,30 @@ h1 {
   font-weight: normal;
   letter-spacing: 3px;
   position: absolute;
-  top: 47%;
-  left: 54%;
+  top: 36%;
+  left: 52.5%;
+}
+
+p {
+  color: #F4D131;
+  font-family: FuturaHeavy, Helvetica, Arial;
+  font-size: 16px;
+  left: 52.5%;
+  position: absolute;
+  top: 46%;
+}
+
+.contact-link {
+  font-family: FuturaHeavy, Helvetica, Arial;
+  font-size: 18px;
+  left: 52.5%;
+  position: absolute;
+  text-decoration: none;
+  top: 60%;
 }
 
 .content-wrapper {
-  background: pink;
-  height: 100vh;
+  height: 600px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -36,7 +64,7 @@ h1 {
   left: 40%;
   position: absolute;
   top: 0;
-  top: 20%;
+  top: 24%;
   width: 100px;
 }
 
@@ -49,13 +77,27 @@ h1 {
 }
 
 .img-word-circle {
-  left: -120px;
+  left: -145px;
   position: absolute;
   top: 30%;
-  width: 250px;
+  width: 300px;
   -webkit-animation:spin 100s linear infinite;
   -moz-animation:spin 100s linear infinite;
   animation:spin 100s linear infinite;
+}
+
+.vertical-line {
+  height: 25px;
+  border-left: 1px solid #143684;
+  position: absolute;
+  left: 52.5%;
+  top: 53%;
+}
+
+@media only screen and (min-width: 560px) {
+}
+
+@media only screen and (min-width: 672px) {
 }
 
 
