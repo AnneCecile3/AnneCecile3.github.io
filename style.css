@@ -3,18 +3,13 @@
 @keyframes spin { 0% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 @font-face {
-  font-family: Futura;
-  src: url(assets/futura-book-font.ttf);
-}
-
-@font-face {
   font-family: FuturaLight;
   src: url(assets/futura-light-bt.ttf);
 }
 
 @font-face {
   font-family: FuturaHeavy;
-  src: url(assets/futura-hevay-font.ttf);
+  src: url(assets/futura-heavy-font.ttf);
 }
 
 * {
@@ -29,58 +24,60 @@ h1 {
   font-weight: normal;
   letter-spacing: 3px;
   position: absolute;
-  top: 36%;
-  left: 52.5%;
+  top: 37%;
+  left: 52%;
 }
 
 p {
   color: #F4D131;
   font-family: FuturaHeavy, Helvetica, Arial;
-  font-size: 16px;
-  left: 52.5%;
+  font-size: 14px;
+  left: 52%;
   position: absolute;
-  top: 46%;
+  top: 48%;
 }
 
 .contact-link {
   font-family: FuturaHeavy, Helvetica, Arial;
-  font-size: 18px;
-  left: 52.5%;
+  font-size: 16px;
+  left: 52%;
   position: absolute;
   text-decoration: none;
-  top: 60%;
+  top: 59%;
 }
 
 .content-wrapper {
   height: 600px;
   margin: 0 auto;
-  overflow: hidden;
+  /*overflow: hidden;*/
   position: relative;
-  width: 100%;
-  max-width: 1000px;
+  /*width: 100%;*/
+  /*max-width: 1000px;*/
+  width: 400px;
 }
 
 .img-august-28-words {
   left: 40%;
   position: absolute;
-  top: 0;
-  top: 24%;
-  width: 100px;
+  top: 23%;
+  /*width: 100px;*/
+  width: 25%;
 }
 
 .img-circle {
   left: 15%;
   position: absolute;
   top: 5%;
-  width: 250px;
+  /*width: 250px;*/
+  width: 62%;
 
 }
 
 .img-word-circle {
-  left: -145px;
+  left: -38%;
   position: absolute;
   top: 30%;
-  width: 300px;
+  width: 75%;
   -webkit-animation:spin 100s linear infinite;
   -moz-animation:spin 100s linear infinite;
   animation:spin 100s linear infinite;
@@ -90,14 +87,48 @@ p {
   height: 25px;
   border-left: 1px solid #143684;
   position: absolute;
-  left: 52.5%;
+  left: 52%;
   top: 53%;
 }
 
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 768px) {
+
+  .content-wrapper {
+    height: 1000px;
+    width: 667px;
+  }
 }
 
-@media only screen and (min-width: 672px) {
+@media only screen and (min-width: 1025px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+
+  p {
+    font-size: 20px;
+    top: 48%;
+  }
+
+  .contact-link {
+    font-size: 24px;
+    top: 70%;
+  }
+
+  .content-wrapper {
+    height: 1200px;
+    width: 800px;
+  }
+
+  .img-word-circle {
+    left: -10%;
+    top: 34%;
+    width: 50%;
+  }
+
+  .vertical-line {
+    height: 200px;
+    top: 52%;
+  }
 }
-
-
