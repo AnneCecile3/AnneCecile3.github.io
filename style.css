@@ -24,26 +24,26 @@ h1 {
   font-weight: normal;
   letter-spacing: 3px;
   position: absolute;
-  top: 37%;
+  top: 33%;
   left: 52%;
 }
 
 p {
   color: #F4D131;
   font-family: FuturaHeavy, Helvetica, Arial;
-  font-size: 14px;
+  font-size: 12px;
   left: 52%;
   position: absolute;
-  top: 48%;
+  top: 44%;
 }
 
 .contact-link {
   font-family: FuturaHeavy, Helvetica, Arial;
-  font-size: 16px;
+  font-size: 14px;
   left: 52%;
   position: absolute;
   text-decoration: none;
-  top: 59%;
+  top: 55%;
 }
 
 .content-wrapper {
@@ -59,7 +59,7 @@ p {
 .img-august-28-words {
   left: 40%;
   position: absolute;
-  top: 23%;
+  top: 20.7%;
   /*width: 100px;*/
   width: 25%;
 }
@@ -70,7 +70,6 @@ p {
   top: 5%;
   /*width: 250px;*/
   width: 62%;
-
 }
 
 .img-word-circle {
@@ -88,7 +87,7 @@ p {
   border-left: 1px solid #143684;
   position: absolute;
   left: 52%;
-  top: 53%;
+  top: 49%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -107,13 +106,13 @@ p {
 
 
   p {
-    font-size: 20px;
-    top: 48%;
+    font-size: 18px;
+    top: 44%;
   }
 
   .contact-link {
-    font-size: 24px;
-    top: 70%;
+    font-size: 20px;
+    top: 66%;
   }
 
   .content-wrapper {
@@ -129,6 +128,6 @@ p {
 
   .vertical-line {
     height: 200px;
-    top: 52%;
+    top: 48%;
   }
 }
